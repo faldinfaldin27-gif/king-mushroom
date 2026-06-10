@@ -1,0 +1,15 @@
+# Core detection / training
+ultralytics>=8.4.0          # YOLO26 (https://docs.ultralytics.com/models/yolo26)
+roboflow                    # dataset download (esdl/king-oyster-mushroom v8)
+opencv-python
+numpy
+Pillow
+pyyaml
+
+# Segmentation + size measurement (task 3) — pick one SAM backend
+# segment-anything            # Meta SAM (ViT-H/L/B checkpoints)
+# sam2                        # SAM 2 (if using SAM2 weights)
+
+# Agentic / VLM (task 4) — optional, choose your provider
+# anthropic                  # Claude VLM for the VisionAgent pipeline
+# landingai                  # landing.ai VisionAgent (agentic object detection)

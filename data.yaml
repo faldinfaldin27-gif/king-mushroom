@@ -1,0 +1,12 @@
+# YOLO26 dataset config for King Oyster Mushroom (杏鮑菇) detection
+# Source: Roboflow esdl/king-oyster-mushroom v8 (CC BY 4.0)
+# Counts: train=490  val=62  test=61   |   single class, dense small objects.
+
+path: C:/Fachri aldin/Github/king mushroom/dataset_roboflow
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names:
+  0: King_oyster_mushroom

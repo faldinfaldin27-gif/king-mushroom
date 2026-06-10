@@ -1,0 +1,18 @@
+dataset_roboflow/
+
+outputs/
+runs/
+
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+image copy.png
+image.png
+King_Oyster_Mushroom_AIoT.pptx
+~$King_Oyster_Mushroom_AIoT.pptx
+AI_Inspection_Robot_Ex8.pptx
+claude.md
