@@ -1,7 +1,7 @@
 dataset_roboflow/
 
 outputs/
-runs/
+
 
 *.pt
 
